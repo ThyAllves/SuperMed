@@ -13,6 +13,20 @@
             "database": "consultas",
             "username": "root",
             "password": ""
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "sql10.freesqldatabase.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "supermed",
+            "database": "sql10793848",
+            "username": "sql10793848",
+            "askForPassword": true
         }
     ]
 }
