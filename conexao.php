@@ -7,7 +7,7 @@ $senha = 'qLa5JIqdXG';
 $database = 'sql10793848';
 $porta = 3306;
 
-$conexao = new mysqli($servidor, $usuario, $senha, $database, $porta);
+$conexao = mysqli_init($servidor, $usuario, $senha, $database, $porta);
 
 if ($conexao) {
     echo "<script>alert('Conectado com sucesso!');</script>";
