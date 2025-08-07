@@ -11,6 +11,6 @@ $conexao = mysqli_connect($servidor, $usuario, $senha, $database, $porta);
 
 if ($conexao) {
     echo "<script>alert('Conectado com sucesso!');</script>";
-    exit();
+    
 }
 ?>
