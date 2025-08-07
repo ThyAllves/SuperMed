@@ -9,8 +9,8 @@ $porta = 3306;
 
 $conexao = mysqli_connect($servidor, $usuario, $senha, $database, $porta);
 
-if ($conexao) {
-    echo "<script>alert('Conectado com sucesso!');</script>";
-    
+
+if(!$conexao) {
+    die("Falha na conexão com o banco de dados: " . mysqli_connect_error());
 }
 ?>
