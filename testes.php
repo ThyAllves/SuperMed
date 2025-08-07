@@ -6,5 +6,7 @@ if(function_exists('mysqli_connect')) {
     echo "<script>alert('A extensão MySQLi não está habilitada.');</script>";
     
 }
+ 
+phpinfo();
 
 ?>
